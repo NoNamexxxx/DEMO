@@ -9,11 +9,13 @@ public class LoginPanel : MonoBehaviour {
 
     private string _name;
     private string _password;
-	void Start () {
+	void Start ()
+    {
 	
 	}
 	
-	void Update () {
+	void Update ()
+    {
 	
 	}
     public void OnLoginClick()
@@ -38,6 +40,7 @@ public class LoginPanel : MonoBehaviour {
             if (isok)
             {
                 MessagePanel.Instance.Show("Login成功");
+                
             }
             else
             {
